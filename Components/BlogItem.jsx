@@ -7,7 +7,7 @@ const BlogItem = ({title,description,category,image,id}) => {
   return (
     <div className='max-w-[330px] sm:max-w-[300px] bg-white border border-black hover:shadow-[-7px_7px_0px_black]'>
         <Link href={`/blogs/${id}`}>
-         <div className="relative w-[300px] h-[200px]">
+         <div className="relative w-[100%] h-[200px]">
           <Image
             src={image}
             alt=""
